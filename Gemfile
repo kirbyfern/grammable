@@ -50,6 +50,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Called rspec-rails, instead of adding another block of development test
   gem 'rspec-rails', '~> 3.5'
+  gem "factory_girl_rails", "~> 4.0"
 end
 
 group :development do
