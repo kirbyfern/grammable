@@ -26,9 +26,9 @@
               <%= comment.message %>
           </div>
         <% end %>
-        <%= simple_form_for Comment.new, url: gram_comments_path(gram) do |f| %>
-          <%= f.input :message, class: 'message-border' %>
-          <%= f.submit 'Add Comment', class: 'btn btn-block btn-lg btn-outline' %>
+        <%= minimal_form_for Comment.new, url: gram_comments_path(gram) do |f| %>
+          <%= f.input :message, placeholder: "Add a comment..." %>
+          <%= f.submit 'Add Comment', class: 'btn btn-block btn-lg btn-outline', placeholder: "Add a comment..." %>
         <% end %>
       </div>
     </div>

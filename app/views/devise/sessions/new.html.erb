@@ -2,8 +2,9 @@
   <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 card form">
 
     <h2 class="brand">Grammable</h2>
-
     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
       <div class="form-inputs">
         <%= f.input :email, placeholder: "Email", required: false, autofocus: true %>
         <%= f.input :password, placeholder: "Password", required: false %>
