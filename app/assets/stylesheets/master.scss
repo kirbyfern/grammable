@@ -6,6 +6,44 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.alert {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.flash {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+abbr[title] {
+    text-decoration: none;
+}
+
+abbr[title="required"] {
+  display: none;
+}
+
+.control-label.email.required {
+  display: none;
+}
+
+.control-label.password.required {
+  display: none;
+}
+
+.control-label.email.optional {
+  display: none;
+}
+
+.control-label.password.optional {
+  display: none;
+}
+
+p.help-block {
+  display: none;
+}
+
 .top-nav {
   background-color: white;
   border-bottom-color: #edeee;
@@ -30,6 +68,7 @@ body {
   color: #125688;
   font-size: 30px;
   font-family: 'Pacifico', cursive;
+  text-decoration: none;
 }
 
 .card {
@@ -44,6 +83,10 @@ body {
 .card p, .card .message {
   font-size: 18px;
   margin: 20px;
+}
+
+.message-border {
+  border: none;
 }
 
 .card.form {
