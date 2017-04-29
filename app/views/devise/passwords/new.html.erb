@@ -1,6 +1,6 @@
-<div class=" align-center">
-  <div class="col-12 col-md-6 offset-md-3 card form">
-    <h2>Forgot your password?</h2>
+<div class="container">
+  <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3  card form">
+    <h2 class="text-center">Forgot your password?</h2>
 
     <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
       <%= f.error_notification %>
