@@ -27,3 +27,6 @@ node_modules
 .sass-cache
 build
 _site
+
+# Ignore application configuration
+/config/application.yml
