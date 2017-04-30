@@ -2,13 +2,15 @@
     <% @grams.each do |gram| %>
       <div class="card">
           <div class="handle col-12 col-sm-12">
-            <%= gram.user.email.split('@')[0] %>
-            <div class="gram-actions float-right">
-              <div class="container">
-                <% if current_user && current_user == gram.user %>
-                  <%= link_to 'Edit', edit_gram_path(gram) %>
-                  <%= link_to 'Delete', gram_path(gram), method: :delete, data: { confirm: 'Are you sure?' } %>
-                <% end %>
+            <div class="container">
+              <%= gram.user.email.split('@')[0] %>
+              <div class="gram-actions float-right">
+                <div class="container">
+                  <% if current_user && current_user == gram.user %>
+                    <%= link_to 'Edit', edit_gram_path(gram) %>
+                    <%= link_to 'Delete', gram_path(gram), method: :delete, data: { confirm: 'Are you sure?' } %>
+                  <% end %>
+                </div>
               </div>
             </div>
           </div>

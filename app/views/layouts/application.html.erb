@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
   <body class="<%= params[:controller].gsub('/', '-') %>">
@@ -23,7 +24,7 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="top-nav">
-      <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
+      <div class="col-12 col-md-10 offset-md-1">
         <div class="brand float-left">
            | <%= link_to "Grammable", root_path %>
         </div>
