@@ -1,24 +1,29 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Grammable
 
-Things you may want to cover:
+Grammable is an Instagram clone app that lets users share photos of their life adventures. The photos are then shared with their friends where they can comment on the photos.
 
-* Ruby version
+*Technical description: Built uusing Rspec for Test Driven Development. Includes S3 AWS to store images, carrier wave for uploading and user authentication.*
 
-* System dependencies
+## Features
 
-* Configuration
+* [RSpec](https://github.com/rspec/rspec-rails) Tests for Test Driven Development using FactoryGirl for test data.
 
-* Database creation
+* Amazon Web Services (S3) for photo storage to let users upload photos.
 
-* Database initialization
+* [Primer css on Rails](https://github.com/primer/css) for CSS and components.
 
-* How to run the test suite
+* PostgreSQL for database queries involving users, photos, and comments.
 
-* Services (job queues, cache servers, search engines, etc.)
+* [Devise](https://github.com/plataformatec/devise) for flexible user authentication.
 
-* Deployment instructions
+## Demo
+You can see a live version of the application at
+[https://grammable-kirby-james.herokuapp.com/][demo].
 
-* ...
+[demo]: https://grammable-kirby-james.herokuapp.com/
+
+## Screenshots
+![Grammable Sign-In/Sign-Up](https://github.com/kirbygit/grammable/blob/master/app/assets/images/grammable-signin.jpg "Grammable Homepage")
+![Grammable Post](https://github.com/kirbygit/grammable/blob/master/app/assets/images/grammable-post.jpg "Grammable Post")
+![Grammable New Post](https://github.com/kirbygit/grammable/blob/master/app/assets/images/grammable-newpost.jpg "Grammable New Post")
