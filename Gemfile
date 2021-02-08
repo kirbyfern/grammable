@@ -16,7 +16,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'simple_form'
 gem 'primer-rails'
 gem 'devise'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem "figaro"
 gem "fog"
 
